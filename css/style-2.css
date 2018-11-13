@@ -1,0 +1,51 @@
+/* Main */
+.ww-container { width: 100%; padding: 20px; background: #fff; font-size: 12px;}
+
+/* Text */
+.ww-container p { font-size: 12px; }
+.ww-container h4 { font-size: 12px !important; font-weight: bold !important; width: 100%;}
+
+.ww-container .ww-grape-details .col,
+.ww-container .ww-wine-details .col,
+.ww-contact-details { background: #f7f7f7; border: 1px solid #fff; }
+
+/* Buttons */
+.ww-btn { background-color: #454d75; padding: 10px; text-decoration: none; text-transform: uppercase; font-weight: bold; color: #fff !important; cursor: pointer; letter-spacing: 1px; }
+.ww-btn:hover { background-color: #232548; }
+.ww-back-link a {float: right;}
+.ww-post-link { text-align: center; }
+
+/* Navigation Sidebar */
+.ww-navbox { background: #f7f7f7; margin-bottom: 20px; padding: 10px; }
+ul#ww-sidebar { list-style: none; margin: 0; padding: 0; }
+ul#ww-sidebar a { font-weight: bold !important; }
+.widget.widget_atf_taxonomy_widget { margin: 0 0 10px 0; }
+.taxonomy-filter .taxonomy-filter-item { margin: 5px 0px; padding: 5px; background: #ddd; text-transform: uppercase;}
+.taxonomy-filter .taxonomy-filter-item:hover {  background: #ccc; }
+.taxonomy-filter .taxonomy-filter-item:hover a { color: #011c6d; }
+.taxonomy-filter .taxonomy-filter-item.active { background: #454d75; }
+.taxonomy-filter .taxonomy-filter-item.active a { color: #fff;}
+.ww-navbox hr { margin: 10px 0 !important;}
+.ww-btn-all { margin: 5px 0 0 0; padding: 5px; background: #ddd; width: 100%; text-transform: uppercase; display: block;}
+.ww-btn-all:hover { background: #ccc; color: #011c6d; }
+
+/* Posts */
+.ww-postblock { background: #f7f7f7; margin-bottom: 20px; padding: 20px;}
+.ww-postblock-button { text-align: center; }
+
+/* Images */
+img.ww-single-img { max-width: 200px !important; }
+
+/* Buy or Sell */
+.ww-postblock-buy { width: 100px; float: right; padding: 0; text-align: center; text-transform: uppercase; color: #fff; background: darksalmon;}
+.ww-postblock-sell { width: 100px; float: right; padding: 0; text-align: center; text-transform: uppercase; color: #fff; background: darkseagreen;}
+.ww-postblock-buy p, 
+.ww-postblock-sell p { margin: 5px 0 5px 0; }
+
+/* Sidr */
+.sidr{display:block;position:fixed;top:0;height:100%;z-index:999999;width:600px;overflow-x:hidden;overflow-y:auto;background-color: #f0f0f0;padding: 20px;<span class="webkit-css-property">max-width</span>: <span class="value">100%</span>;}
+.sidr.right{left:auto;right:-260px}
+.sidr.left{left:-600px;right:auto}
+.sidr form.acf-form {padding: 0;margin: 0 0 10px;}
+.media-modal, .media-modal.acf-media-modal {z-index: 999999 !important;}
+.sidr .acf-fields > .acf-field {padding-left: 0;padding-right: 0;}
